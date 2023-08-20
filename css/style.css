@@ -1,0 +1,941 @@
+/* =======================================
+           common css start
+=========================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+p,
+.p {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.text-color {
+    color: #737373 !important;
+}
+
+.heading-color {
+    color: #202020;
+}
+
+h1,
+.h1 {
+    font-size: 60px;
+    line-height: 53px;
+    font-weight: 700;
+}
+
+h2,
+.h2 {
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+h3,
+.h3 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+h4,
+.h4 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+h5,
+.h5 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+h6,
+.h6 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+
+.fw-normal {
+    font-weight: 400;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+a:hover {
+    color: #FECC51;
+}
+
+.section {
+    padding-top: 100px;
+}
+
+.section-title {
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.transition {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.primary-btn a {
+    padding: 13px 24px;
+    background-color: #E54D43;
+    border-radius: 100px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    -moz-transition: all ease .2s;
+    -ms-transition: all ease .2s;
+    -o-transition: all ease .2s;
+}
+
+.primary-btn a:hover {
+    transform: translateY(-4px);
+    box-shadow: 4px 8px 19px 1px rgba(229, 77, 67, 0.33);
+    -webkit-box-shadow: 4px 8px 19px 1px rgba(229, 77, 67, 0.33);
+    -moz-box-shadow: 4px 8px 19px 1px rgba(229, 77, 67, 0.33);
+}
+
+.secondary-btn a {
+    padding: 10px 18px;
+    background-color: #F3F3F3;
+    border-radius: 100px;
+    color: #202020;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    -moz-transition: all ease .2s;
+    -ms-transition: all ease .2s;
+    -o-transition: all ease .2s;
+}
+
+.secondary-btn a:hover {
+    transform: translateY(-4px);
+    box-shadow: 4px 8px 19px 1px rgba(243, 243, 243, 1);
+    -webkit-box-shadow: 4px 8px 19px 1px rgba(243, 243, 243, 1);
+    -moz-box-shadow: 54px 8px 19px 1px rgba(243, 243, 243, 1);
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* =======================================
+             comon css end
+  =========================================*/
+
+/* =======================================
+             banner css start
+  =========================================*/
+.banner {
+    background: #F8F4F2;
+    padding: 60px 0 70px;
+}
+
+.banner-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text {
+    width: 650px;
+}
+
+.banner-text h3 {
+    color: #202020;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 45px;
+    position: relative;
+    padding-top: 10px;
+}
+
+.banner-before {
+    content: "";
+    position: absolute;
+    right: 197px;
+    bottom: -23px;
+}
+
+.banner-btn {
+    padding-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.banner-btn .primary-btn:last-child a {
+    margin-left: 20px;
+    background-color: #89C6D6;
+    color: #202020;
+}
+
+.banner-btn .primary-btn:last-child a:hover {
+    box-shadow: 4px 8px 19px 1px rgb(137, 198, 214, 0.33);
+    -webkit-box-shadow: 4px 8px 19px 1px rgb(137, 198, 214, 0.33);
+    -moz-box-shadow: 4px 8px 19px 1px rgb(137, 198, 214, 0.33);
+}
+
+/* =======================================
+             banner css end
+  =========================================*/
+
+/* =======================================
+             links css start
+  =========================================*/
+.link {
+    padding: 10px 0;
+    background-color: #E54D43;
+}
+
+.link-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.link-wrapper span {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.link-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.link-wrapper ul li {
+    margin-left: 20px;
+}
+
+.link-wrapper ul li a {
+    padding: 6px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 100px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    -moz-transition: all ease .2s;
+    -ms-transition: all ease .2s;
+    -o-transition: all ease .2s;
+}
+
+.link-wrapper ul li a:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #E54D43;
+}
+
+/* =======================================
+             links css end
+  =========================================*/
+
+/* =======================================
+             packages css start
+  =========================================*/
+.packages-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    margin-left: calc(36vw - 400px);
+}
+
+.content {
+    width: 320px;
+}
+
+.content p a {
+    text-decoration: underline;
+    color: #202020;
+    font-weight: 400;
+}
+
+.content p span {
+    color: #202020;
+    font-weight: 700;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    padding: 37px 16px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background: #FFF;
+    text-align: center;
+    box-shadow: 0px 40px 74px 0px rgba(32, 32, 32, 0.04);
+    transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    -moz-transition: all ease .2s;
+    -ms-transition: all ease .2s;
+    -o-transition: all ease .2s;
+}
+
+.card:hover {
+    box-shadow: 0px 40px 74px 0px rgba(32, 32, 32, 0.10);
+}
+
+.card-head {
+    width: 110px;
+    height: 110px;
+    background-color: #F3F3F3;
+    border-radius: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card-head img {
+    position: absolute;
+    left: -72px;
+    top: 0px;
+}
+
+.card-body {
+    padding-top: 26px;
+}
+
+.price {
+    padding-top: 10px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.regular-price {
+    color: #E54D43;
+    font-size: 24.5px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.old-price {
+    color: #737373;
+    font-size: 17.5px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: line-through;
+}
+
+.price-text {
+    color: #737373;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.card-body p {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-top: 14px;
+}
+
+.card-body p span {
+    color: #202020;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.card-footer .primary-btn a {
+    padding: 10px 18px;
+    border-radius: 100px;
+    font-weight: 700;
+}
+
+.nicescroll-cursors {
+    margin-top: 40px;
+    margin-left: 20px;
+    position: relative;
+    top: 0px;
+    width: 885px;
+    height: 9px !important;
+    background-color: #F8F4F2 !important;
+    border: none !important;
+    background-clip: padding-box;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+.nicescroll-rails {
+    width: 732px !important;
+    height: 9px;
+    border-radius: 13.5px;
+    z-index: auto;
+    cursor: default;
+    position: absolute;
+    top: 0;
+    opacity: 1 !important;
+    display: block;
+    background-color: #E54D43;
+}
+
+.nicescroll-cursors .left-angle {
+    position: absolute;
+    left: -20px;
+    top: -3px;
+    color: #E54D43;
+    cursor: pointer;
+}
+
+.nicescroll-cursors .right-angle {
+    position: absolute;
+    right: -20px;
+    top: -3px;
+    color: #E54D43;
+    cursor: pointer;
+}
+
+/* =======================================
+             packages css end
+  =========================================*/
+
+/* =======================================
+             about css start
+  =========================================*/
+.about-wrapper {
+    padding-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-item {
+    width: 33%;
+    padding: 30px;
+    text-align: center;
+}
+
+.about-item h4 {
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+/* =======================================
+             about css end
+  =========================================*/
+
+/* =======================================
+             vedio css start
+  =========================================*/
+.vedio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vedio-text {
+    width: 567px;
+}
+
+.vedio-text h5 {
+    padding-top: 20px;
+}
+
+.vedio-text p {
+    padding-top: 20px;
+}
+
+.vedio-text p span {
+    color: #E54D43;
+}
+
+.vedio-text p a {
+    padding: 4px 16px;
+    border-radius: 13.5px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.06);
+    margin-left: 30px;
+}
+
+.video-img {
+    border-radius: 20px;
+    position: relative;
+}
+
+.video-img .video-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-img .video-btn .video-play-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 86px;
+    height: 86px;
+    color: #FE6019;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+}
+
+.video-img .video-btn .video-play-btn::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 86px;
+    height: 86px;
+    background: #fff;
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+.video-img .video-btn .video-play-btn i {
+    font-size: 27px;
+    color: #FE6019;
+    z-index: 1;
+}
+
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
+
+}
+
+/* =======================================
+             vedio css end
+  =========================================*/
+
+/* =======================================
+             prgress-bar css start
+  =========================================*/
+.progress-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prgress-bar {
+    width: 50%;
+}
+
+.prgress-bar img {
+    width: 100%;
+    height: auto;
+}
+
+.prgress-text {
+    width: 50%;
+}
+
+.prgress-text p {
+    padding-top: 25px;
+}
+
+.prgress-text p span {
+    color: #202020;
+    font-weight: 700;
+}
+
+/* =======================================
+             prgress-bar css end
+  =========================================*/
+
+/* =======================================
+             carrer css start
+  =========================================*/
+.carrer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carrer-text {
+    width: 600px;
+}
+
+.carrer-text h5 {
+    padding-top: 20px;
+}
+
+.carrer-text p {
+    padding-top: 25px;
+}
+
+.carrer-img {
+    width: 600px;
+}
+
+.carrer-img img {
+    border-radius: 20px;
+}
+
+/* =======================================
+             carrer css end
+  =========================================*/
+
+/* =======================================
+             feedback css start
+  =========================================*/
+.comment-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 30px;
+}
+
+.comment-item {
+    width: 413px;
+    padding: 25px;
+    background-color: #F8F4F2;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.person-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #89C6D6;
+    overflow: hidden;
+    line-height: 6;
+    margin-right: 15px;
+}
+
+.comment-text p {
+    color: #202020;
+    line-height: 140%;
+    font-weight: 600;
+}
+
+.comment-text span {
+    color: #202020;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    padding-top: 30px;
+    display: block;
+}
+
+
+/* =======================================
+             feedback css end
+  =========================================*/
+
+/* =======================================
+             product css start
+  =========================================*/
+.product-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.product-comparison ul li {
+    color: #202020;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    padding-bottom: 26px;
+}
+
+.product-package .card {
+    width: 253px;
+    padding: 50px 10px 10px;
+    border-radius: 16px;
+    background: #F8F4F2;
+    position: relative;
+}
+
+.product-package .card .bage {
+    position: absolute;
+    left: 50%;
+    width: 89px;
+    height: 19px;
+    background-color: #FFBC48;
+    transform: translateX(-50%);
+    top: 0;
+    color: #202020;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 16px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.product-package .card:hover {
+    background: #FFF;
+    box-shadow: 10px 30px 30px 0px rgba(0, 0, 0, 0.10);
+}
+
+.product-package .card:hover .card-btn .primary-btn a {
+    background: #E54D43;
+    color: #fff;
+    filter: drop-shadow(10px 14px 34px rgba(0, 0, 0, 0.04));
+}
+
+.product-package .card:hover .card-btn {
+    border-color: #F8F4F2;
+}
+
+.product-package .card:hover .list li {
+    border-color: #F8F4F2;
+}
+
+.product-package .card .card-body {
+    padding-top: 0;
+}
+
+.product-package .card .card-body p {
+    padding-top: 0;
+}
+
+.product-package .card .card-body p {
+    color: #202020;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.product-package .price {
+    border-bottom: 0;
+    padding-top: 20px;
+}
+
+.product-package .regular-price {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 17px;
+    border-bottom: 0;
+}
+
+.product-package .old-price {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.product-package .price-text {
+    color: #202020;
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 15px;
+    display: block;
+}
+
+.product-package .card-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.product-package .card .card-btn .link-btn a {
+    color: #293854;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.product-package .card-btn .primary-btn a {
+    background: #FFF;
+    color: #E54D43;
+    filter: drop-shadow(10px 14px 34px rgba(0, 0, 0, 0.04));
+    padding: 9px 11px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 10px;
+}
+
+.product-package .card .card-footer {
+    padding-top: 20px;
+}
+
+.product-package .card .card-footer p {
+    color: #202020;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-bottom: 35px;
+}
+
+.product-package .card .card-footer p span {
+    color: #202020;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.product-package .card .list li {
+    padding: 13px 0;
+    border-top: 1px solid #fff;
+    color: #293854;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+/* =======================================
+             product css end
+  =========================================*/
+
+/* =======================================
+             action css start
+  =========================================*/
+.action {
+    text-align: center;
+}
+
+.action p {
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.search-bar {
+    position: relative;
+    width: 630px;
+    margin: 0 auto;
+}
+
+.search-bar input {
+    width: 630px;
+    height: 60px;
+    padding-left: 70px;
+    border: none;
+    border-radius: 30px;
+    background: #EEE;
+    margin-top: 15px;
+    position: relative;
+}
+
+.search-bar input:focus-visible {
+    outline: none;
+    border: 1px solid #E54D43;
+}
+
+.search-bar button {
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    left: 30px;
+    top: 34px;
+}
+
+.search-bar button i {
+    color: #E54D43;
+}
+
+.section-btm-padding {
+    padding-bottom: 50px;
+}
+
+/* =======================================
+             action css end
+  =========================================*/
