@@ -881,6 +881,11 @@ body {
     line-height: 18px;
 }
 
+.product-btm-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+
 /* =======================================
              product css end
   =========================================*/
